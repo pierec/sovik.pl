@@ -1,0 +1,11 @@
+[project]
+name = "ssg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pelican>=4.11.0.post0",
+    "pelican-i18n-subsites>=1.0.0",
+    "pelican-minify>=2.0.1",
+]
