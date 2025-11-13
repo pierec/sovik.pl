@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<p class="title has-text-centered">Cennik usług</p>
+	<div class="level">
+	    <div class ="level-item">
+		<table class="table">
+			<tbody>
+			    {% for group_name, services in PRICES %}
+				<tr class="has-background-white-bis">
+					<td><span class="is-size-5">{{ group_name }}</span></td>
+					<td></td>
+				</tr>
+				{% for service_name, price in services %}
+				    <tr>
+					    <td>{{ service_name }}</span></td>
+					    <td class="has-text-right">{{ price }}</td>
+				    </tr>
+				{% endfor %}
+			    {% endfor %}
+			</tbody>
+		</table>
+	    </div>
+	</div>
+{% endblock content %}
