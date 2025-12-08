@@ -14,7 +14,7 @@ DEFAULT_LANG = "pl"
 THEME = "./theme"
 
 SOCIAL_INSTAGRAM = "https://www.instagram.com/sovik.sewing.lab/"
-SOCIAL_FACEBOOK = "https://www.facebook.com/profile.php?id=61565002558855#"
+SOCIAL_FACEBOOK = "https://www.facebook.com/profile.php?id=100088710542588"
 SOCIAL_ALLEGRO = "https://allegro.pl/uzytkownik/VikSo"
 
 DEFAULT_PAGINATION = False
