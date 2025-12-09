@@ -12,11 +12,17 @@
 	<title>{{ SITENAME }} - {{ TAGLINE }}</title>
 </head>
 
+<style>
+	.has-background {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23272628' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"), linear-gradient(-45deg, rgba(229, 93, 135, .7), rgba(95, 195, 228, .7));
+	}
+</style>
+
 <body>
-	<section class="hero"
-		style="background: linear-gradient(-45deg, rgba(229,93,135,.7), rgba(95,195,228,.7)),  center center / cover no-repeat;">
+	<section class="hero has-background">
 		<div class="hero-body">
-			<div class="container level">
+			<div class="container is-max-desktop">
+			    <div class="level">
 				<div class="level-left">
 					<div class="has-text-centered">
 						<a href="{{ SITEURL }}/">
@@ -25,7 +31,7 @@
 							</figure>
 						</a>
 						<div>
-							<p class="title is-1">{{ SITENAME }}</p>
+							<p class="title is-1 is-size-2-mobile">{{ SITENAME }}</p>
 							<p class="subtitle"><i>"{{ MOTTO }}"</i></p>
 						</div>
 						<div class="buttons is-centered my-4">
@@ -57,7 +63,7 @@
 				<div class="level-right">
 					<div class="box">
 						<div class="block">
-							<p class="subtitle has-text-centered">
+							<p class="subtitle has-text-centered is-size-6-mobile">
 								{{ SITENAME }} to kameralna pracownia
 								krawiecka.
 								<br>Tutaj szyjemy z pasją!
@@ -74,10 +80,10 @@
 						</div>
 						<div class="block">
 							<div class="container">
-								<p class="title has-text-right">
+								<p class="title is-3 is-size-4-mobile has-text-right">
 									{{ ADDRESS_0 }}
 								</p>
-								<p class="subtitle has-text-right">
+								<p class="subtitle is-4 is-size-6-mobile has-text-right">
 									<i>{{ ADDRESS_1}}</i><br>
 									<a href="tel:{{ PHONE_NUMBER }}">{{ PHONE_NUMBER }} </a>
 								</p>
@@ -87,6 +93,7 @@
 
 				</div>
 			</div>
+		    </div>
 		</div>
 	</section>
 

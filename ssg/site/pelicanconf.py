@@ -34,7 +34,7 @@ LINKS = ()
 MOTTO = "Nasze miejsce do szycia"
 TAGLINE = "Kameralna pracownia krawiecka."
 
-ADDRESS_0 = "Wrocław, ul. Bema 15"
+ADDRESS_0 = "ul. Bema 15, Wrocław"
 ADDRESS_1 = "(wejście od podwórza)"
 PHONE_NUMBER = "+48 577 526 259"
 
