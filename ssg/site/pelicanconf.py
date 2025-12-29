@@ -59,14 +59,14 @@ PRICES = [
     [
         "Zwężanie spodni",
         [
-            ["spodnie materiałowe", "od 55zł"],
+            ["spodnie materiałowe", "od 55 zł"],
             ["spodnie dżinsowe", "od 60 zł"],
         ],
     ],
     [
         "Inne usługi",
         [
-            ["wymiana zamka w spodniach", "od 55zł + koszt zamka"],
+            ["wymiana zamka w spodniach", "od 55 zł + koszt zamka"],
             ["wymiana zamka krytego w spodniach", "od 45 zł + koszt zamka"],
             ["naprawa worków kieszeniowych", "od 40 zł"],
             ["wymiana worków kieszeniowych", "od 70 zł"],
